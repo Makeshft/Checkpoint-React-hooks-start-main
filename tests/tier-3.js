@@ -101,7 +101,7 @@ describe('Tier 3: Root component', () => {
     });
   });
 
-  xit('displays error message if the server responds with status code 500', async () => {
+  it('displays error message if the server responds with status code 500', async () => {
     mockAxios.onGet('/api/pets').reply(500);
     const wrapper = mount(<Root />);
 

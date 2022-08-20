@@ -10,6 +10,7 @@ import 'regenerator-runtime/runtime';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './components/Root';
+// import '../public/style.css';
 
 const App = () => {
   return <Root />;
